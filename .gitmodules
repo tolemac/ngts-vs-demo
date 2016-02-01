@@ -1,0 +1,3 @@
+[submodule "ngts-HtmlApplication/typescript/ngts"]
+	path = ngts-HtmlApplication/typescript/ngts
+	url = https://github.com/tolemac/ngts.git

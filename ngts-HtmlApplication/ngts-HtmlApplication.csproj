@@ -36,8 +36,25 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="typescript\" />
+    <TypeScriptCompile Include="typescript\App\About\About.ts" />
+    <TypeScriptCompile Include="typescript\App\AppRoot\AppRoot.ts" />
+    <TypeScriptCompile Include="typescript\App\Boot.ts" />
+    <TypeScriptCompile Include="typescript\App\Componente1\Componente1.ts" />
+    <TypeScriptCompile Include="typescript\App\Componente2\Componente2.ts" />
+    <TypeScriptCompile Include="typescript\App\Home\Home.ts" />
+    <TypeScriptCompile Include="typescript\ngts\bootstrapper.ts" />
+    <TypeScriptCompile Include="typescript\ngts\common.ts" />
+    <TypeScriptCompile Include="typescript\ngts\const.ts" />
+    <TypeScriptCompile Include="typescript\ngts\decorators.ts" />
+    <TypeScriptCompile Include="typescript\ngts\decorators\component.ts" />
+    <TypeScriptCompile Include="typescript\ngts\decorators\directive.ts" />
+    <TypeScriptCompile Include="typescript\ngts\decorators\inherit.ts" />
+    <TypeScriptCompile Include="typescript\ngts\decorators\inject.ts" />
+    <TypeScriptCompile Include="typescript\ngts\decorators\injectable.ts" />
+    <TypeScriptCompile Include="typescript\ngts\decorators\metadata.ts" />
+    <TypeScriptCompile Include="typescript\ngts\ngts.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
