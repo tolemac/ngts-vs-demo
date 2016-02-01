@@ -1,5 +1,5 @@
-Angular15/typescript/**/*.js
-Angular15/typescript/typings/**/*
+ngts-HtmlApplication/typescript/**/*.js
+ngts-HtmlApplication/typescript/typings/**/*
 .vs
 
 ## Ignore Visual Studio temporary files, build results, and
