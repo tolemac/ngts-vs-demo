@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>ngts TypeScript HTML App</title>
+    <link href="/app.css" rel="stylesheet" />
+    <link href="/node_modules/angular-material/angular-material.css" rel="stylesheet" />
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/angular/angular.js"></script>
+    <script src="/node_modules/angular-animate/angular-animate.js"></script>
+    <script src="/node_modules/angular-aria/angular-aria.js"></script>
+    <script src="/node_modules/angular-messages/angular-messages.js"></script>
+    <script src="/node_modules/angular-material/angular-material.js"></script>
+    <script src="/node_modules/systemjs/dist/system.src.js"></script>
+    <script src="/scripts/angular_1_router.js"></script>
+    <script type="text/javascript">
+        System.config({
+            baseURL: "/typescript",
+            defaultJSExtensions: true
+        });
+        System.import("App/Boot");
+    </script>
+</head>
+<body layout="row" flex>
+    <section id="menu-lateral"></section>
+    <section id="principal" layout="column" flex>
+        <header>
+            <md-toolbar>
+                <div class="md-toolbar-tools">
+                    <h2>
+                        <span><a href="/">Nombre de aplicación</a></span>
+                    </h2>
+                    <span flex></span>
+                </div>
+            </md-toolbar>
+        </header>
+        <md-content flex md-scroll-y id="contenido">
+            <app-root-component></app-root-component>
+        </md-content>
+        <footer id="pie">
+            &copy; @DateTime.Now.Year - ngts Visual Studio HtmlApplication demo
+        </footer>
+    </section>
+</body>
+</html>
